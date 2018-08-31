@@ -1,9 +1,9 @@
 <template>
-    <Menu />
+    <router-view></router-view>
 </template>
 
 <script>
-import Menu from './components/Menu.vue';
+import VueRouter from 'vue-router';
 
 export default {
     name: 'App',
@@ -11,9 +11,6 @@ export default {
         return { 
             
         }
-    },
-    components: {
-        Menu,
     },
 }
 </script>
