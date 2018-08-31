@@ -1,17 +1,20 @@
 <template>
-    <div id="app">
-        {{ message }}
-    </div>
+    <Menu />
 </template>
 
 <script>
+import Menu from './components/Menu.vue';
+
 export default {
     name: 'App',
     data: function () {
-        return {
-            message: 'Hello from Vue JS',
+        return { 
+            
         }
-    }
+    },
+    components: {
+        Menu,
+    },
 }
 </script>
 
